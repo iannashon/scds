@@ -1,16 +1,21 @@
 # scds
 ## Introduction
 
-The aim of this analysis is to investigate a credit dataset containing information on clients' loan details. The dataset comprises columns with borrowers' information such as age, gender, salary status, and transaction details, while the remaining columns contain loan-related information, including loan amount, interest/fee, tenure month, and loan status.
+In response to frequent customer complaints posted on social media platforms, our store has taken a proactive approach to mitigate dissatisfaction. To address this issue, we have devised a campaign aimed at reaching out to customers who are more likely to complain, with the intention of gathering their valuable feedback on improving our services.
 
-In addition to analyzing the dataset, we will also build a predictive model to determine whether the client will default or not based on the provided information.
+To identify these customers, we will leverage their transaction history from the last 30 days and develop a machine learning model using Python. This model will predict whether a customer is likely to file a complaint by the end of the month or not. By utilizing historical transaction data, we aim to proactively engage with customers who are more prone to expressing their concerns, enabling us to address any issues and enhance their overall experience.
 
-## Tasks
- 
+Through the application of machine learning techniques, we anticipate gaining valuable insights that will facilitate targeted communication and support our ongoing efforts to provide exceptional customer service.
 
-1.   Give different explanatory analysis on those variables and clearly give us the insights from that analysis.
-2.   Create a supervised model (from any algorithm of your choice) and show us how you can predict if the target variable “is default”
-3.   Show us all model performance evaluation.
+## The Plan
+
+1. Load our dataset
+2. Data Expolaration
+3. Data pre-processing
+4. Machine Learning
+   1. Random Forest
+   2. Gradient Boost
+5. Conclusion
 
 
 ## How to run the project
